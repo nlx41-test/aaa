@@ -1,5 +1,5 @@
 FROM http://56.228.29.137:9000
-WORKDIR /usr/local/app
+WORKDIR /usr/local/app1
 
 # Install the application dependencies
 COPY requirements.txt ./
