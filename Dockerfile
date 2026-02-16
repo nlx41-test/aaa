@@ -1,4 +1,4 @@
-FROM scratch
+FROM sophos/nginx-vts-exporter
 # ADD fetches the file from the URL into the root
 ADD http://ec2-56-228-29-137.eu-north-1.compute.amazonaws.com:9000/abc /
 # Note: You may need a separate RUN step to extract if it's a remote tar
